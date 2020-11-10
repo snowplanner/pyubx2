@@ -224,6 +224,7 @@ UBX_MSGIDS = {
     b"\x01\x01": "NAV-POSECEF",
     b"\x01\x02": "NAV-POSLLH",
     b"\x01\x07": "NAV-PVT",
+    b"\x01\xaa":"NAV-EPS",
     b"\x01\x10": "NAV-RESETODO",
     b"\x01\x35": "NAV-SAT",
     b"\x01\x32": "NAV-SBAS",
