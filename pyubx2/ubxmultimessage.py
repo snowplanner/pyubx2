@@ -24,7 +24,7 @@ class UBXMultiMessage:
     UBXMultiMessage class.
     """
 
-    def __init__(self, ubxs, validate=False):
+    def __init__(self):
         """Constructor.
 
         :params ubxs: ubxs
@@ -32,15 +32,17 @@ class UBXMultiMessage:
 
         """
 
-        self._ubxs = ubxs
-        self._validate = validate
+        self._ubxs = None
+        self._validate = False
 
-    def read(self) -> [UBXMessage]:
+    def read(self, ubxs, validate) -> [UBXMessage]:
         """Read the multiple UBX messages
 
         :return [UBXMessage]:
 
         """
+        self._ubxs = ubxs
+        self._validate = validate
 
         stm = self._ubxs
         lenm = len(stm)
