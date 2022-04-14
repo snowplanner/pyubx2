@@ -999,6 +999,25 @@ UBX_PAYLOADS_GET = {
         "statusFlags": X2,
         "headMot": U4
     },
+    "NAV-SNOW": {
+        "id": U2,
+        "period": U4,
+        "year": U2,
+        "month": U1,
+        "day": U1,
+        "hour": U1,
+        "minute": U1,
+        "second": U1,
+        "fuel_avg": U2,
+        "fuel_std": U2,
+        "fuel_min": U2,
+        "fuel_max": U2,
+        "rpm_avg": U2,
+        "rpm_std": U2,
+        "rpm_min": U2,
+        "rpm_max": U2,
+        "hours_max": U4
+    },
     "NAV-SAT": {
         "iTOW": U4,
         "version": U1,
