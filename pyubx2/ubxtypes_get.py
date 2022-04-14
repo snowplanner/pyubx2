@@ -999,7 +999,7 @@ UBX_PAYLOADS_GET = {
         "statusFlags": X2,
         "headMot": U4
     },
-    "NAV-SNOW": {
+    "NAV-CANBUS": {
         "id": U2,
         "period": U4,
         "year": U2,
