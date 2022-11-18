@@ -1016,7 +1016,9 @@ UBX_PAYLOADS_GET = {
         "rpm_std": U2,
         "rpm_min": U2,
         "rpm_max": U2,
-        "hours_max": U4
+        "hours_max": U4,
+        "winch_sta": U1,
+        "tiller_sta": U1,
     },
     "NAV-SAT": {
         "iTOW": U4,
