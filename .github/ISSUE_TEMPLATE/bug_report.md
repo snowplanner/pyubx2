@@ -1,36 +1,27 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: semuadmin
+title: "[BUG] - "
+labels: 'type: bug'
+assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+<!--- Provide a general summary of the issue in the Title above -->
+# BUG REPORT
 
-**To Reproduce**
+## Description
+<!--- A clear and concise description of what the bug is. -->
+
+## Screenshots
+<!--- If applicable, add screenshots to help explain your problem -->
+
+## Steps to Reproduce
 Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+1. 
+2.
+3.
+4.
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
-
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
-
-**GNSS/GPS Device (please complete the following information):**
- - Device: [e.g. u-blox NEO-8m]
- - Protocol: [e.g. NMEA, UBX]
- - Connection Type (e.g. UART, USB)
- - If possible, provide screen print of UBX Config dialog panel
-
-**Additional context**
-Add any other context about the problem here.
+## Additional context
+<!-- Add any other context about the problem here -->
