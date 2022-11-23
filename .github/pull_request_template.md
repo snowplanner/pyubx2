@@ -1,4 +1,4 @@
-Closes the issue or issues #
+It closes #
 
 ## Description
 
