@@ -997,7 +997,7 @@ UBX_PAYLOADS_GET = {
         "temp": I2,
         "hBar": U4,
         "statusFlags": X2,
-        "headMot": U4
+        "headMot": U4,
     },
     "NAV-CANBUS": {
         "id": U2,
@@ -1019,6 +1019,14 @@ UBX_PAYLOADS_GET = {
         "hours_max": U4,
         "winch_sta": U1,
         "tiller_sta": U1,
+        "manuf": U1,
+        "veh_dir": U1,
+        "veh_buz": U1,
+        "veh_bual": U1,
+        "veh_bwal": U1,
+        "light": U1,
+        "winch_force": U2,
+        "tiller_speed": U2,
     },
     "NAV-SAT": {
         "iTOW": U4,
